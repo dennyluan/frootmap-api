@@ -6,7 +6,6 @@ ruby '3.0.0'
 gem 'rails', '~> 6.1.0'
 gem "pg", "~> 1.2"
 gem 'puma', '~> 5.0'
-gem 'shrine'
 gem 'bcrypt', '~> 3.1.7'
 # gem 'image_processing', '~> 1.2'
 gem 'bootsnap', '>= 1.4.4', require: false
