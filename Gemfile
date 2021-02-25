@@ -7,15 +7,13 @@ gem 'rails', '~> 6.1.0'
 gem "pg", "~> 1.2"
 gem 'puma', '~> 5.0'
 gem 'bcrypt', '~> 3.1.7'
-# gem 'image_processing', '~> 1.2'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'rack-cors'
 gem 'fast_jsonapi'
 gem 'oj'
-
+# gem 'image_processing', '~> 1.2'
 gem 'shrine'
 gem 'shrine-google_cloud_storage'
-
 
 
 group :development, :test do
@@ -23,7 +21,6 @@ group :development, :test do
   gem 'annotate'
   gem 'pry'
   gem 'pry-rails'
-
 end
 
 group :development do
