@@ -149,6 +149,8 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.11.1-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.11.1-x86_64-linux)
+      racc (~> 1.4)
     oj (3.11.2)
     os (1.1.1)
     parser (3.0.0.0)
@@ -237,6 +239,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   annotate
